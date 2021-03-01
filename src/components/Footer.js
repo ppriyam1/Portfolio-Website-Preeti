@@ -19,7 +19,7 @@ const Footer = () => {
               <p>Binghamton, NY 13905</p>
             </div>
             <div className="d-flex">
-              <a href="tel:607-304-1323">+1(607)-699-1317</a>
+              <a href="tel:607-699-1317">+1(607)-699-1317</a>
             </div>
             <div className="d-flex">
               <p>preeti1992priyam@gmail.com</p>

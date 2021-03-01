@@ -147,7 +147,8 @@ requests.</p>
             <img className="projects-image-popupbox" src={SE} alt="Software Engineering project ...." />
             <h4 className="popup-h1" >BU REALTOR: Real estate property management application!</h4>
             <p className="popup-para">This project aims at creating a real estate property management software using Ruby framework that offers<br /> a service to realtors, real estate agencies and property managers with the ability to track and manage the current<br /> status of any real estate property under their portfolio.</p>
-            <b className="popup-b">GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/codecella/bu-realtor","_blank")}>https://github.com/codecella/bu-realtor</a>
+            <b className="popup-b">GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/codecella/bu-realtor","_blank")}>https://github.com/codecella/bu-realtor</a><br />
+            <b className="popup-b">Website:</b> <a className="hyper-link" onClick={() => window.open("https://immense-taiga-77598.herokuapp.com","_blank")}>https://immense-taiga-77598.herokuapp.com</a>
         </>
         )
         PopupboxManager.open({ content });
