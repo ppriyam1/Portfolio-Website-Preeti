@@ -29,7 +29,7 @@ const Projects = () => {
             <p className="popup-para">Simon Game: Created a Simon game using JavaScript and jQuery</p>
             <p className="popup-para">Dice Game: Created a simple dice game using JavaScript and jQuery</p><br />
             <b className="popup-b">ToDoLIST Web App:</b> <a className="hyper-link" onClick={() => window.open("https://gentle-citadel-78388.herokuapp.com/","_blank")}>https://gentle-citadel-78388.herokuapp.com/</a><br/>
-            <b className="popup-b">NewsLetter Web App:</b> <a className="hyper-link" onClick={() => window.open("https://dashboard.heroku.com/apps/stormy-plains-24510","_blank")}>https://dashboard.heroku.com/apps/stormy-plains-24510</a><br/>
+            <b className="popup-b">NewsLetter Web App:</b> <a className="hyper-link" onClick={() => window.open("https://stormy-plains-24510.herokuapp.com/","_blank")}>https://stormy-plains-24510.herokuapp.com/</a><br/>
             <b className="popup-b">GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/ppriyam1/Web_Projects","_blank")}>https://github.com/ppriyam1/Web_Projects</a>
         </>
         )
