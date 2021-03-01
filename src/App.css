@@ -148,11 +148,7 @@ nav ul li {
   opacity: "0.9";
 }
 
-@media(max-width: 768px){
-  .particles-canvas{
-    display: none;
-  }
-}
+
 
 /* About me */
 
@@ -203,7 +199,7 @@ nav ul li {
 }
 
 .tech-skills h2{
-  color: #b83b61;
+  color: var(--blueColor);
   font-family: "Roboto Condesed", sans-serif;
   text-transform: uppercase;
 }
@@ -376,7 +372,7 @@ nav ul li {
 
 .projects-wrapper h1 {
   font-family: "Roboto Condesed", sans-serif;
-  color: #b83b61;
+  color:var(--blueColor);
 }
 
 .projects-image{
@@ -438,15 +434,18 @@ nav ul li {
 
 .popup-h1 {
   font-family: "Roboto Condesed", sans-serif;
-  padding: 0 0 0 0.5rem;
+  padding: 0 0 0 0.3rem;
   padding-top: 2rem;
+  margin:0;
 }
 .popup-para {
-  padding: 1rem 0 0 0.5rem;
+  padding-left: 0.4rem !important;
+  margin: 0 !important;
 }
 
 .popup-b {
   padding: 0 0 0 0.5rem;
+  margin: 0;
 }
 
 .hyper-link {
@@ -492,9 +491,10 @@ nav ul li {
 }
 
 .contacts h1{
-  color: #a9294f;
+  color: var(--blueColor);
   padding: 1.3rem 0;
   text-transform: uppercase;
+  font-family: "Roboto Condesed", sans-serif;
 }
 
 .contacts p{
@@ -538,10 +538,10 @@ nav ul li {
   width: 100%;
   background: none;
   color: #fff;
-  border: 0.125rem solid #a9294f;
+  border: 0.125rem solid var(--blueColor);
 }
 .contact-btn:hover{
-  background:#a9294f;
+  background: var(--blueColor);
   color: #fff;
 }
 
@@ -550,7 +550,7 @@ nav ul li {
   top: -0.7rem;
   width: 0;
   height: 0.129rem;
-  background: #a9294f;
+  background: var(--blueColor);
   display: inline-block;
 }
 
@@ -606,6 +606,7 @@ textarea.form-control {
   font-family: "Roboto Condesed", sans-serif;
 }
 
+
 .footer a:hover {
   text-decoration: none;
   color: var(--blueColor);
@@ -617,5 +618,17 @@ textarea.form-control {
 }
 
 .footer img{
-  border: 0.1rem solid black;
+  border: 0.2rem solid #433d3c;
+}
+
+
+/*-------- media ---------*/
+@media(max-width: 768px) {
+  .footer .contact{
+    width: 100%;
+    margin-bottom: 2rem !important;
+    margin-left: 1.6rem !important;
+  }
+ 
+
 }

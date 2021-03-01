@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars} from "@fortawesome/free-solid-svg-icons"
 
 const NavBar = () => {
+
     return (
         <nav className="navbar navbar-expand-lg fixed-top" position="static" style={{ background: "#222" }}>
         <div className = "container">

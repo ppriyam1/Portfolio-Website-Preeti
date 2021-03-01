@@ -15,9 +15,9 @@ const TechSkills = () => {
                                 <h3>Frontend</h3>
                                 <p>JavaScript ES6</p>
                                 <p>Bootstrap</p>
-                                <p>HTML5</p>
                                 <p>React</p>
                                 <p>CSS3</p>
+                                <p>Swift</p>
                                 </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6">
@@ -27,7 +27,6 @@ const TechSkills = () => {
                                 <p>CoreJava</p>
                                 <p>Express</p>
                                 <p>NodeJs</p>
-                                <p>Swift</p>
                                 <p>C</p>
                                 </div>
                         </div>
@@ -35,8 +34,8 @@ const TechSkills = () => {
                         <div className="box">
                         <div className="circle" ><FontAwesomeIcon className="icon" icon={faDatabase} size="2x" /></div>
                                 <h3>DataBase</h3>
-                                <p>NoSql</p>
-                                <p>Sql</p>
+                                <p>NoSQL</p>
+                                <p>SQL</p>
                             </div>                             
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6">

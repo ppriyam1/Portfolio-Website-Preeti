@@ -115,68 +115,7 @@ const Experience = () => {
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2016
-          </Typography>
-          <Box component="div" className={classes.timeLineItem}>
-            <Typography
-              variant="h5"
-              aligh="center"
-              className={classes.subHeading}
-            >
-              Associate Software Engineer
-            </Typography>
-            <Typography
-              variant="body1"
-              aligh="center"
-              style={{ color: "#ffbdd1" }}
-            >
-              Accenture Solutions Private Limited
-            </Typography>
-            <Typography
-              variant="subtitle1"
-              aligh="center"
-              style={{ color: "#fff" }}
-            >
-              <p>Conducted effective black-box testing of a Telecom internal product, to validate the status transactions in the production, resulting in a failure rate close to null in production.</p>
-              <p>Created reports with statistical analysis of products to identify trends which resulted in making informed business decisions by client and management, helping in project management.</p>
-            </Typography>
-          </Box>
-          <Typography
-            variant="h2"
-            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-          >
-            2017
-          </Typography>
-          <Box component="div" className={classes.timeLineItem}>
-            <Typography
-              variant="h5"
-              aligh="center"
-              className={classes.subHeading}
-            >
-              Software Engineer
-            </Typography>
-            <Typography
-              variant="body1"
-              aligh="center"
-              style={{ color: "#ffbdd1" }}
-            >
-              Accenture Solutions Private Limited
-            </Typography>
-            <Typography
-              variant="subtitle1"
-              aligh="center"
-              style={{ color: "#fff" }}
-            >
-             <p>Analyzed customer data and classified type and region of customers based on the offers they redeemed, it helped the business to forecast and improve the future offers and increase the customer satisfaction level by 18%.</p>
-             <p>Enhanced performance of the existing stored procedures, joins, triggers & queries with proactive analysis which improved efficiency by 20%.</p>
-             <p>Developed groovy scripts to automate SOAP and REST APIs, that significantly decreased the redundant testing effort by 30%.</p>
-            </Typography>
-          </Box>
-          <Typography
-            variant="h2"
-            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-          >
-            2018
+            2019
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography
@@ -207,7 +146,68 @@ const Experience = () => {
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2019
+            2018
+          </Typography>
+          <Box component="div" className={classes.timeLineItem}>
+            <Typography
+              variant="h5"
+              aligh="center"
+              className={classes.subHeading}
+            >
+             Software Engineer
+            </Typography>
+            <Typography
+              variant="body1"
+              aligh="center"
+              style={{ color: "#ffbdd1" }}
+            >
+              Accenture Solutions Private Limited
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              aligh="center"
+              style={{ color: "#fff" }}
+            >
+             <p>Analyzed customer data and classified type and region of customers based on the offers they redeemed, it helped the business to forecast and improve the future offers and increase the customer satisfaction level by 18%.</p>
+             <p>Enhanced performance of the existing stored procedures, joins, triggers & queries with proactive analysis which improved efficiency by 20%.</p>
+             <p>Developed groovy scripts to automate SOAP and REST APIs, that significantly decreased the redundant testing effort by 30%.</p>
+            </Typography>
+          </Box>
+          <Typography
+            variant="h2"
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+          >
+            2017
+          </Typography>
+          <Box component="div" className={classes.timeLineItem}>
+            <Typography
+              variant="h5"
+              aligh="center"
+              className={classes.subHeading}
+            >
+              Associate Software Engineer
+            </Typography>
+            <Typography
+              variant="body1"
+              aligh="center"
+              style={{ color: "#ffbdd1" }}
+            >
+              Accenture Solutions Private Limited
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              aligh="center"
+              style={{ color: "#fff" }}
+            >
+             <p>Conducted effective black-box testing of a Telecom internal product, to validate the status transactions in the production, resulting in a failure rate close to null in production.</p>
+             <p>Created reports with statistical analysis of products to identify trends which resulted in making informed business decisions by client and management, helping in project management.</p>
+            </Typography>
+          </Box>
+          <Typography
+            variant="h2"
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+          >
+            2016
           </Typography>       
         </Box>
       </Box>

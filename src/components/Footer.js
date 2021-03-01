@@ -14,12 +14,12 @@ const Footer = () => {
     <div className="footer">
       <div className="container">
         <div className="row">
-          <div className="col-lg-4 col-md-6 col-sm-6">
+          <div className="col-lg-4 col-md-6 col-sm-6 contact">
             <div className="d-flex">
               <p>Binghamton, NY 13905</p>
             </div>
             <div className="d-flex">
-              <a href="tel:607-304-1323">+1(607)-304-1323</a>
+              <a href="tel:607-304-1323">+1(607)-699-1317</a>
             </div>
             <div className="d-flex">
               <p>preeti1992priyam@gmail.com</p>
@@ -37,26 +37,26 @@ const Footer = () => {
           </div>
           <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
             <div className="d-flex justify-content-center">
-              <FacebookShareButton
-                url={"https://www.facebook.com/singhpreeti3112"}
-                quote={"Web & iOS Developer"}
-                hashtag="#swift"
-              >
-                <FacebookIcon className="mx-3" size={36} />
-              </FacebookShareButton>
-              <LinkedinShareButton
-                url={"https://www.linkedin.com/in/preeti-priyam-6b2272192/"}
-                quote={"Web & iOS Developer"}
-                hashtag="#swift"
-              >
-                <LinkedinIcon className="mx-3" size={36} />
-              </LinkedinShareButton>
+              <a
+								className="px-3"
+								href="https://www.facebook.com/singhpreeti3112"
+								target="_blank"
+								rel="noopener noreferrer">
+								<FacebookIcon className="mx-3" size={36} />
+							</a>
               <a
 								className="px-3"
 								href="https://github.com/ppriyam1"
 								target="_blank"
 								rel="noopener noreferrer">
-								<img src={github} alt="" size={36}/>
+								<img className="git" src={github} alt="" size={36}/>
+							</a>
+              <a
+								className="px-3"
+								href="https://www.linkedin.com/in/preeti-priyam-6b2272192/"
+								target="_blank"
+								rel="noopener noreferrer">
+								<LinkedinIcon className="mx-3" size={36} />
 							</a>
 
             </div>
